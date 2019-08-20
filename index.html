@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scratchese Foundation</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #FF5A00;
+            color: white;
+            padding-bottom: 50px;
+        }
+        img#logo{
+            display: block;
+            width: 150px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        table{
+            margin: auto;
+        }
+        a {
+            color: white;
+            opacity: 0.9;
+        }
+        th, td{
+            padding: 10px 20px;
+        }
+        #project-displayer {
+            margin: auto;
+            width: 100vw;
+            overflow-x: scroll;
+        }
+        .center{
+            padding: 40px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <img id='logo' src="https://user-images.githubusercontent.com/7886068/63386147-37f6c100-c357-11e9-9f79-e88f0142200f.png"/>
+    <h1 align="center">
+        Scratchese Foundation
+    </h1>    
+    <p align="center">
+        Build X from scratch.
+    </p>
+    <div style='margin-bottom: 100px;'></div>
+    <div id='project-displayer'>
+        <table>
+            <thead>
+              <tr>
+                <th>name</th>
+                <th>Similar library</th>
+                <th>Category</th>
+                <th>CI</th>
+                <th>Project Status</th>
+                <th>Todo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="https://github.com/amazingandyyy/node-runner">node-runner</a></td>
+                <td>nodemon, babel-watch</td>
+                <td>tool</td>
+                <td><a href="https://circleci.com/gh/amazingandyyy/node-runner"><img src="https://circleci.com/gh/amazingandyyy/node-runner.svg?style=svg" alt="node-runner"></a></td>
+                <td>stable</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/amazingandyyy/git-hooks">git-hooks</a></td>
+                <td>husky</td>
+                <td>tool</td>
+                <td><a href="https://circleci.com/gh/amazingandyyy/git-hooks"><img src="https://circleci.com/gh/amazingandyyy/git-hooks.svg?style=svg" alt="git-hooks"></a></td>
+                <td>stable</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/amazingandyyy/node-server">node-server</a></td>
+                <td>express, koa</td>
+                <td>framework</td>
+                <td><a href="https://circleci.com/gh/amazingandyyy/node-server"><img src="https://circleci.com/gh/amazingandyyy/node-server.svg?style=svg" alt="node-server"></a></td>
+                <td>RC-2</td>
+                <td>router, params</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/amazingandyyy/server-logger">server-logger</a></td>
+                <td>morgan</td>
+                <td>server</td>
+                <td><a href="https://circleci.com/gh/amazingandyyy/server-logger"><img src="https://circleci.com/gh/amazingandyyy/server-logger.svg?style=svg" alt="server-logger"></a></td>
+                <td>stable</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/amazingandyyy/body-parser">body-parser</a></td>
+                <td>body-parser</td>
+                <td>server</td>
+                <td><a href="https://circleci.com/gh/amazingandyyy/body-parser"><img src="https://circleci.com/gh/amazingandyyy/body-parser.svg?style=svg" alt="body-parser"></a></td>
+                <td>WIP</td>
+                <td>better <a href="https://github.com/expressjs/body-parser/tree/master/lib/types">handle</a></td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/amazingandyyy/markdeck">markdeck</a></td>
+                <td>mdx-deck</td>
+                <td>creativity</td>
+                <td><a href="https://circleci.com/gh/amazingandyyy/markdeck"><img src="https://circleci.com/gh/amazingandyyy/markdeck.svg?style=svg" alt="markdeck"></a></td>
+                <td>stable</td>
+                <td>demo video</td>
+              </tr>
+              <tr>
+                <td><a href="https://github.com/amazingandyyy/levelize">levelize</a></td>
+                <td>mongoose, level-mongo</td>
+                <td>db driver</td>
+                <td><a href="https://circleci.com/gh/amazingandyyy/levelize"><img src="https://circleci.com/gh/amazingandyyy/levelize.svg?style=svg" alt="markdeck"></a></td>
+                <td>WIP</td>
+                <td>towards to MVP</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class='center'>
+        <a href="https://github.com/scratchese/origin" target="_blank">
+            Build Yours
+        </a>
+    </div>
+</body>
+</html>
